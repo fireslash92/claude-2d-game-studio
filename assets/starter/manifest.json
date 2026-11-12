@@ -1,0 +1,47 @@
+{
+  "license": "MIT",
+  "tiles": {
+    "file": "tiles.png",
+    "frame": [
+      16,
+      16
+    ],
+    "names": [
+      "grass",
+      "path",
+      "water",
+      "forest",
+      "floor",
+      "stone"
+    ]
+  },
+  "hero": {
+    "file": "hero.png",
+    "frame": [
+      16,
+      24
+    ],
+    "columns": 4,
+    "rows": [
+      "down",
+      "up",
+      "left",
+      "right"
+    ],
+    "fps": 8,
+    "anchor": "bottom-center"
+  },
+  "props": {
+    "file": "props.png",
+    "frame": [
+      32,
+      32
+    ],
+    "names": [
+      "tree",
+      "house",
+      "rock",
+      "chest"
+    ]
+  }
+}
